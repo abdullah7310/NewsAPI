@@ -236,13 +236,15 @@ section .footer .para img{
 @media screen and  (min-width:300px)  and (max-width: 767px){
     header{
         height: 4rem;
-        border-bottom: 1.5px solid black;
+        /* width: 100vw; */
+        /* border: 1.5px solid black; */
     }
     .header-div{
         height: 3rem;
         display: flex;
         justify-content: center;
-        width: 76vw;
+        width: 80vwvw;
+        /* border: 2px solid red; */
         margin-bottom: 1.2rem;
     }
     header div span img{
@@ -265,8 +267,10 @@ section.main .container{
 }
 section.main .news{
     width: 16rem;
+    /* border: 2px solid green; */
     font-family: "Inria Sans", sans-serif;
     margin-bottom: 1.2rem;
+    margin-left: 30px;
 }
 section.main .news h2{
     font-size: 18px;
