@@ -13,10 +13,10 @@
 
 
 header{
-    border-bottom: 2px solid var(--dark);
+    border-bottom: 1.5px solid #616160;
 }
 header div{
-    width: 45vw;
+    width: 55vw;
     display: flex;
     margin: 2.5rem auto;
     letter-spacing: 0.5rem;
@@ -26,19 +26,19 @@ header div span{
     border: 2px;
 }
 header hr{
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.3rem;
 }
 header div span img{
-    width: 75.291px;
-    height: 75.291px;
+    width: 60.291px;
+    height: 60.291px;
     border-radius: 50%;
     /* border: 2px solid; */
-    margin-top: 2rem;
+    margin-top: 1.7rem;
     margin-right: 0.3rem;
 
 }
 header div h1{
-    font-size: 100px;
+    font-size: 80px;
     font-style: normal;
     font-family:Georgia Style ;
     line-height: 140%;
@@ -51,18 +51,18 @@ section.search{
     margin-top: 3.8rem;
 }
 section.search .search-box{
-    height: 4.7rem;
+    height: 3.8rem;
     width: 27rem;
     display: flex;
     /* border: 2px solid red; */
     margin: auto;
 }
 section.search .search-bar{
-    width: 22rem;
+    width: 17rem;
     display: flex;
     align-items: center;
-    height: 4.7rem;
-    border: 2px solid rgb(156, 152, 152);
+    height: 3.8rem;
+    border: 1.5px solid rgb(156, 152, 152);
     border-right: none;
 }
 section.search .search-button{
@@ -90,7 +90,7 @@ section.search .search-text{
 
 }
 section.search .go{
-    border: 2px solid var(--darkred);
+    /* border: 2px solid var(--darkred); */
     background-color: #E84848;
     width: 4.7rem;
     display: flex;
@@ -105,28 +105,31 @@ section.search .go h3{
 section.main .container{
     /* border: 2px solid red; */
     margin-top: 5.7rem;
-    padding:0 13.5rem;
+    /* margin: 0 ; */
+    /* padding:0 13.5rem; */
 }
 section.main .news{
     width: 16rem;
     /* border: 2px solid black; */
     font-family: "Inria Sans", sans-serif;
-    margin-bottom: 1.9rem;
-    /* font-weight: ; */
+    margin-bottom: 1.6rem;
+    margin-left: 7.6rem;
     /* color: #E84848; */
     /* color: #D02424; */
 }
 section.main .news h2{
+    /* margin-left: 4rem; */
+    font-size: 1.3rem;
     color: #D02424;
     font-weight: 400;
 }
 section.main .container .grid-wrapper .card{
     /* border: 2px solid black; */
-    width: 20.2rem;
+    width: 17rem;
 }
 section.main .container .grid-wrapper .card .img{
     width: 100%;
-    height: 9.5rem ;
+    height: 8rem ;
     /* border: 2px solid black; */
 }
 section.main .container .grid-wrapper .card img{
@@ -136,13 +139,13 @@ section.main .container .grid-wrapper .card img{
 }
 section.main .container .grid-wrapper .card .heading{
     width: 100%;
-    margin: 1.2rem 0;
+    margin: 1.1rem 0;
     font-family: Inknut Antiqua;
     /* border: 2px solid green; */
 }
 section.main .container .grid-wrapper .card .heading h2{
     font-weight: 600;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     line-height: 1.3;
     letter-spacing: -1px;
     color: var(--dark);
@@ -150,11 +153,11 @@ section.main .container .grid-wrapper .card .heading h2{
 section.main .container .grid-wrapper .card .para{
     width: 100%;
     /* border:2px solid brown; */
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.1rem;
    
 }
 section.main .container .grid-wrapper .card .para p{
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.3;
     font-family: Inter;
     font-weight: 400;
@@ -163,9 +166,10 @@ section.main .container .grid-wrapper .card .para p{
 }
 section.main .container .grid-wrapper .card .article{
     font-family: Inria Sans;
-    font-size: 1.3rem;
+    font-size: 1rem;
+    color: #30302e;
     line-height: 1.3;
-    font-weight: 400;
+    font-weight: 500;
 }
 section.main .container .grid-wrapper .card .article span{
     margin-left: 4px;
@@ -175,15 +179,17 @@ section.main .container .grid-wrapper .card .article span{
     height: 5rem; */
 }
 section.main .container .grid-wrapper .card .article span i{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #D02424;
 }
 section.main .container .grid-wrapper{
     display: grid;
-    
+    width: 80vw;
+    /* border: 2px solid black; */
     grid-template-columns: repeat(3,1fr);
-    column-gap: 6.3rem;
-    row-gap: 8rem;
+    column-gap: 4rem;
+    margin: auto;
+    row-gap: 5rem;
 }
 section .footer{
     height:10rem ;
@@ -191,7 +197,7 @@ section .footer{
     display: flex;
     align-content: center;
     justify-content: center;
-    border-top: 2px solid #3C3030;
+    border-top: 1.5px solid #454343;
 }
 section .footer .para{
     display: flex;
@@ -203,10 +209,10 @@ section .footer .para h5{
     font-weight: 300;
     color: var(--dark);
     margin-right: 4px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 section .footer .para p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: var(--dark);
     font-weight: 400;
     font-family: Inria Serif;
