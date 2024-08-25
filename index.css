@@ -37,6 +37,10 @@ header div span img{
     margin-right: 0.3rem;
 
 }
+.header-div{
+    display: flex;
+    justify-content: center;
+}
 header div h1{
     font-size: 80px;
     font-style: normal;
@@ -54,6 +58,7 @@ section.search .search-box{
     height: 3.8rem;
     width: 27rem;
     display: flex;
+    justify-content: center;
     /* border: 2px solid red; */
     margin: auto;
 }
@@ -113,7 +118,7 @@ section.main .news{
     /* border: 2px solid black; */
     font-family: "Inria Sans", sans-serif;
     margin-bottom: 1.6rem;
-    margin-left: 7.6rem;
+    margin-left: 8.9rem;
     /* color: #E84848; */
     /* color: #D02424; */
 }
@@ -125,11 +130,11 @@ section.main .news h2{
 }
 section.main .container .grid-wrapper .card{
     /* border: 2px solid black; */
-    width: 17rem;
+    width: 100%;
 }
 section.main .container .grid-wrapper .card .img{
     width: 100%;
-    height: 8rem ;
+    height: 8.4rem ;
     /* border: 2px solid black; */
 }
 section.main .container .grid-wrapper .card img{
@@ -184,10 +189,10 @@ section.main .container .grid-wrapper .card .article span i{
 }
 section.main .container .grid-wrapper{
     display: grid;
-    width: 80vw;
+    width: 76vw;
     /* border: 2px solid black; */
     grid-template-columns: repeat(3,1fr);
-    column-gap: 4rem;
+    column-gap: 5rem;
     margin: auto;
     row-gap: 5rem;
 }
