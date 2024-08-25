@@ -79,14 +79,14 @@ section.search .search-button{
     /* border: 2px solid; */
 }
 section.search i{
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: var(--dark);
     opacity: 0.61;
     text-align: center;
-    margin-top: 8px;
+    margin-top: 5px;
 }
 section.search .search-text{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     margin-left: 4px;
     font-style: normal;
     font-weight: 100;
